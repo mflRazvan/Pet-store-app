@@ -1,0 +1,10 @@
+Caine lup,Rex,5,https://cdn.adh.reperio.news/image-d/dd589b9e-8f8b-412f-b179-c2b10c408319/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D1000%26h%3D750%26q%3D91%26r%3Dcontain%26f%3Dwebp,0
+Golden retriever,Azorel,1,https://www.toateanimalele.ro/wp-content/uploads/2016/05/Golden-Retriever2.jpg,0
+Husky,Max,4,https://www.petfinder.com/static/f31068aa2a8c93a5771ac4c66ba4199e/1108d/siberian-husky-card-large.jpg,0
+Husky,Paco,5,https://www.insidedogsworld.com/wp-content/uploads/2016/04/siberian-husky-dog-breed-information.jpg,0
+Ciobanesc,Bobi,7,https://www.andreicrivat.ro/wp-content/uploads/2014/04/dog.jpg,0
+Saint Bernard,Otto,5,https://animaledecompanie.info/wp-content/uploads/2017/03/Saint-Bernard-1024x563.jpg,0
+Husky,Roc,8,https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F06%2F14%2Fsiberian-husky-red-white-280627645-2000.jpg,0
+Pitbull,Spike,8,https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTk2MTcwNDk2NjQ2MDYzMjQ5/why-pitbull-dog-is-banned-in-25-countries.png,0
+Saint Bernard,Bella,1,https://www.cateidevanzare.ro/uploads/d57c4478def5f00c1d22228e18fb596e.jpg,0
+Caine lup,Piki,9,https://agrointel.ro/wp-content/uploads/2020/02/Ciobanesc-german-caine-de-paza.jpg,0

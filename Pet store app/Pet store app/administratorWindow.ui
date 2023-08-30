@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>administratorWindowClass</class>
+ <widget class="QMainWindow" name="administratorWindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>661</width>
+    <height>431</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>administratorWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="option_page">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <family>Times New Roman</family>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>What do you want to do today?</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="addButton">
+            <property name="text">
+             <string>Add a new pet</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="removeButton">
+            <property name="text">
+             <string>Remove a pet from the list</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QPushButton" name="updateButton">
+            <property name="text">
+             <string>Update the status of a pet</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="showButton">
+            <property name="text">
+             <string>Show the list of pets one by one</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>The file name you want to save the data in (optional):</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="dataSave"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="closeAdminWindow">
+          <property name="text">
+           <string>Close window</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="add_page">
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QListWidget" name="petListAdd">
+          <property name="editTriggers">
+           <set>QAbstractItemView::NoEditTriggers</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>New pets' name:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="nameLineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>New pets' breed:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="breedLineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string>New pets' age:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="ageLineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="text">
+               <string>New pets' photo link:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="photoLineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addButtonPage">
+            <property name="text">
+             <string>Add</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="backButton_2">
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="remove_page">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QListWidget" name="petListRemove"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_12">
+          <property name="text">
+           <string>Select a pet to remove it</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <widget class="QPushButton" name="removeButtonPage">
+            <property name="text">
+             <string>Remove</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="backButton_3">
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="update_page">
+       <layout class="QHBoxLayout" name="horizontalLayout_14">
+        <item>
+         <widget class="QListWidget" name="petListUpdate"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="text">
+               <string>New breed:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="newBreed"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="text">
+               <string>New age:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="newAge"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="text">
+               <string>New photo:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="newPhoto"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_13">
+            <item>
+             <widget class="QPushButton" name="updateButtonPage">
+              <property name="text">
+               <string>Update</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="backButton_4">
+              <property name="text">
+               <string>Back</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="show_all_page">
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>Pets' name:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="nameShow">
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_17">
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>Pets' breed:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="breedShow">
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_16">
+          <item>
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>Pets' age:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="ageShow">
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_15">
+          <item>
+           <widget class="QPushButton" name="previousButton">
+            <property name="text">
+             <string>Previous</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="nextButton">
+            <property name="text">
+             <string>Next</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="backButton_5">
+          <property name="text">
+           <string>Back to main page</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>661</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="administratorWindow.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>backButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>go_back()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>540</x>
+     <y>401</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>backButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>go_back()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>403</x>
+     <y>401</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>backButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>go_back()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>backButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>go_back()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>324</x>
+     <y>402</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>addButtonPage</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>add_pet()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>338</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>closeAdminWindow</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>close_window()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>259</x>
+     <y>368</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>510</x>
+     <y>406</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>addButton</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>add_pet_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>253</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>167</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>removeButton</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>remove_pet_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>401</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>657</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>updateButton</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>update_pet_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>169</x>
+     <y>300</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>514</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>showButton</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>show_pet_list_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>398</x>
+     <y>300</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>479</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>removeButtonPage</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>remove_pet()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>276</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>updateButtonPage</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>update_pet()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>nextButton</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>next_pet()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>522</x>
+     <y>377</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>previousButton</sender>
+   <signal>clicked()</signal>
+   <receiver>administratorWindowClass</receiver>
+   <slot>previous_pet()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>57</x>
+     <y>379</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>show_pet_list_page()</slot>
+  <slot>update_pet_page()</slot>
+  <slot>remove_pet_page()</slot>
+  <slot>add_pet_page()</slot>
+  <slot>go_back()</slot>
+  <slot>add_pet()</slot>
+  <slot>remove_pet()</slot>
+  <slot>update_pet()</slot>
+  <slot>next_pet()</slot>
+  <slot>previous_pet()</slot>
+  <slot>close_window()</slot>
+ </slots>
+</ui>

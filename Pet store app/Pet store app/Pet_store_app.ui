@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Pet_store_appClass</class>
+ <widget class="QMainWindow" name="Pet_store_appClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>662</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pet_store_app</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>402</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="MainPage">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>147</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_11">
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>48</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Welcome to our Pet Shelter! </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>146</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="loginButtonPage">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Log in</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="signinButtonPage">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Sign in</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="closeApplicationButton">
+          <property name="text">
+           <string>Close application</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="LoginPage">
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Email address:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="emailAddressLog"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Password:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="passwordLog"/>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="showPassword">
+            <property name="maximumSize">
+             <size>
+              <width>16</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBoxLogin"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="loginButton">
+          <property name="text">
+           <string>Log in</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="backButton">
+          <property name="text">
+           <string>Back</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="SigninPage">
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Email address:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="emailAddressSign"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>Accounts' password:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="passwordSign"/>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="showPassword_2">
+            <property name="maximumSize">
+             <size>
+              <width>16</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBoxSignin"/>
+        </item>
+        <item>
+         <widget class="QComboBox" name="userType"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="signinButton">
+          <property name="text">
+           <string>Sign in</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="backButton_3">
+          <property name="text">
+           <string>Back</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>662</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>loginButtonPage</sender>
+   <signal>clicked()</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>log_in_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>278</x>
+     <y>402</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>61</x>
+     <y>35</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>closeApplicationButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>close_application()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>116</x>
+     <y>423</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>247</x>
+     <y>474</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>loginButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>log_in()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>288</x>
+     <y>397</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>106</x>
+     <y>450</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>backButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>back()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>347</x>
+     <y>429</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>385</x>
+     <y>450</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>signinButtonPage</sender>
+   <signal>clicked()</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>sign_in_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>440</x>
+     <y>394</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>448</x>
+     <y>38</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>signinButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>sign_in()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>314</x>
+     <y>401</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>55</x>
+     <y>449</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>backButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>back()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>431</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>455</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>passwordLog</sender>
+   <signal>textEdited(QString)</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>to_star()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>225</x>
+     <y>286</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>659</x>
+     <y>235</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>showPassword</sender>
+   <signal>clicked()</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>show_password()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>634</x>
+     <y>278</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>448</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>showPassword_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>show_password_sign()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>636</x>
+     <y>264</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>656</x>
+     <y>183</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>passwordSign</sender>
+   <signal>textEdited(QString)</signal>
+   <receiver>Pet_store_appClass</receiver>
+   <slot>to_star_sign()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>229</x>
+     <y>267</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>657</x>
+     <y>146</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>use_administrator()</slot>
+  <slot>use_user()</slot>
+  <slot>close_application()</slot>
+  <slot>file_type_select()</slot>
+  <slot>log_in_page()</slot>
+  <slot>sign_in_page()</slot>
+  <slot>log_in()</slot>
+  <slot>sign_in()</slot>
+  <slot>back()</slot>
+  <slot>to_star()</slot>
+  <slot>show_password()</slot>
+  <slot>show_password_sign()</slot>
+  <slot>to_star_sign()</slot>
+ </slots>
+</ui>
